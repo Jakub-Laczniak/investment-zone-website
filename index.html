@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zainwestuj w Trzebnicy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet'/>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+</style>
+<script>history.scrollRestoration = "manual"</script>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="head-background-container">
+        <div class="head-container">
+            <img src="./linki/herb/herb-pion.svg" class="herb" href="https://trzebnica.pl/16/strona-glowna.html">
+                <div class="head-text">
+                    <img src="./linki/Nagłówek_1.svg" alt="Tytuł strony" class="img-title">
+                </div>
+        </div>
+    </header>
+
+    <!--Navigation-->
+<nav class="background-nav-container">
+    <ul class="nav-container">
+        <li class="nav-btns active-btn" data-id="about">Informacje <br>o Gminie</li>
+        <li class="nav-btns" data-id="invest">Zainwestuj<br>w Trzebnicy</li>
+        <li class="nav-btns" data-id="support">dla inwestora</li>
+        <li class="nav-btns" data-id="contact">Kontakt</li>
+    </ul>
+</nav>
+
+        <!--sub-navigation-->
+ <div class="sub-nav-main-container">
+
+    <ul class="sub-nav-container sub-nav-active sub-nav-height" id="about">
+        <li><a href="#słowo"class="sub-nav-btns ">Słowo Burmistrza</a></li>
+        <li><a href="#charakterystyka" class="sub-nav-btns ">Charakterystyka gminy</a></li>
+        <li><a href="#wliczbach" class="sub-nav-btns ">Gmina w liczbach</a></li>
+        <li><a href="#turystyka"class="sub-nav-btns ">Turystyka</a></li>
+    </ul>
+
+    <ul class="sub-nav-container" id="invest">
+        <li><a href="#atuty" class="sub-nav-btns">Główne atuty</a></li>
+        <li><a href="#szansa" class="sub-nav-btns ">Sektory wysokiej szansy</a></li>
+        <li><a href="#strefa" class="sub-nav-btns">Strefa inwestycyjna</a></li>
+        <li><a href="#przedsiębiorcy" class="sub-nav-btns ">Trzebniccy przedsiębiorcy</a></li>
+    </ul>
+
+    <ul class="sub-nav-container" id="support">
+        <li><a href="#charakterystyka"  class="sub-nav-btns">Ulgi podatkowe dla inwestorów</a></li>
+        <!-- <li><a href="#wsparcie"  class="sub-nav-btns">Wsparcie</a></li>
+        <li><a href="#pomoc"  class="sub-nav-btns ">Pomoc</a></li>
+        <li><a href="#wartości"  class="sub-nav-btns">Wartości</a></li>
+        <li><a href="#inne"  class="sub-nav-btns ">Inne tematy</a></li> -->
+    </ul>
+    <ul class="sub-nav-container" id="contact">
+        <li><a href="#oferta"  class="sub-nav-btns ">Kontakt</a></li>
+        <!-- <li><a href="#przedsiębiorcy"  class="sub-nav-btns">Przedsiębiorcy</a></li>
+        <li><a href="#szanse"  class="sub-nav-btns ">Szanse rozwoju</a></li>
+        <li><a href="#transport"  class="sub-nav-btns">Transport</a></li>
+        <li><a href="#zagrożenia"  class="sub-nav-btns">Zagrożenia</a></li> -->
+    </ul>
+        <img src="./linki/herb/herb_poziom.svg" alt="" class="herb-sticky">
+
+</div>
+
+<!--ARTYKUŁY O GMINIE-->
+<div class="article-container"> 
+  <div class="article">
+    <article class="article-text">
+        <div class="break" id="słowo"></div>
+                        <h2>Słowo Burmistrza</h2>
+                    
+                            <h3>Szanowni Państwo!</h3>
+                            <br><br>
+                            <p class="float">
+                                <img src="./linki/Burmistrz foto.jpg" class="img-float">
+                            Gmina Trzebnica, którą od 2006 roku mam zaszczyt zarządzać jako burmistrz, rozwija się niezwykle dynamicznie. Liczne projekty i przedsięwzięcia realizujemy dbając o dziedzictwo i tradycję jednocześnie uwzględniając nowoczesne trendy i rozwiązania. Tę ideę obrazuje nasze hasło promocyjne – Trzebnica. Bogactwo historii, potencjał przyszłości.
+                            <br><br>
+                            Z dumą mogę pochwalić się licznymi ambitnymi i odważnymi inwestycjami zrealizowanymi w ostatnich latach – Gminny Park Wodny TRZEBNICA-ZDRÓJ z kręgielnią i strefą aktywności sportowej, Gminne Centrum Medyczne TRZEBNICA-ZDRÓJ, Gminny Obiekt Sportowy, Gminne Centrum Kultury i Sportu z Kinem Polonia 3D, zrewitalizowane tereny Stawów Trzebnickich i Lasu Bukowego, rewitalizacja Winnej Góry, Szkoła Muzyczna I stopnia im. prof. Edmunda Kajdasza, Trzebnicki Stadion Miejski FAIR PLAY ARENA, Szkoła Podstawowa nr 1 i 2, Szkoła Podstawowa w Kuźniczysku i Ujeźdźcu Wielkim, Gminny Żłobek i Przedszkole im. Krasnala Hałabały, deptak i rynek, zrewitalizowane tereny parków miejskich, nowe place zabaw, świetlice wiejskie, boiska wielofunkcyjne, pumptrack, ronda, drogi, chodniki.  
+                            Prężnie rozwijające się miasto, ale i cała gmina, na którą składa się aż 41 sołectw, są dla mnie powodem do dumy. Gmina Trzebnica jest idealnym miejscem do życia, zarówno dla rodzin z dziećmi, jak i seniorów. Świetnie zlokalizowana, posiadająca wygodny dojazd do Wrocławia (droga ekspresowa, szynobus), zapewnia dostęp do instytucji i usług, z tradycjami uzdrowiskowymi, z ogromnym dziedzictwem kulturowym, walorami rekreacyjnymi, bogatą ofertą edukacyjną, sportową, kulturalną oraz zdrowotną.
+                            Na terenie Gminy Trzebnica wydzieliliśmy obszar ponad 150 ha terenów inwestycyjnych pod Specjalną Strefę Ekonomiczną w Trzebnicy, która stanowi podstrefę Kamiennogórskiej Specjalnej Strefy Ekonomicznej.
+                            <br><br>
+                            Zapraszam wszystkie firmy zainteresowane rozwojem swojej działalności do Gminy Trzebnica.
+                            Serdecznie zapraszam do Trzebnicy!
+                            </p>
+                            <img src="./linki/Burmistrz.svg" class="float-img" alt="">
+    </article>
+
+        <article class="article-text">
+            <div class="break" id="charakterystyka"></div>
+                            <h2>Charakterystyka Gminy</h2>
+
+                            <p>
+                                Gmina Trzebnica to przestrzeń wielowymiarowa. Malowniczo położona wśród wzgórz. Mająca bogatą historię. Bardzo dobrze skomunikowana. Odważna i ambitna. Idealna dla rodzin. O dużym potencjale dalszego dynamicznego rozwoju. Oferująca liczne aktywności i możliwości. Trzebnica to miasto, w którym dobrze się żyje. Na miejscu znajdują się liczne instytucje, usługi oraz atrakcje i zabytki.  Ponadto nowoczesna baza edukacyjna, rekreacyjna i sportowa. Te atuty przyciągają nowych mieszkańców naszej gminy. Gmina wiejsko-miejska z dużym znaczeniem rolnictwa oraz sadownictwa. Posiadająca na swoim terenie kilka dużych, rozpoznawalnych firm, jak Tarczyński S.A., Perfand, Panda, Sady Trzebnickie.
+
+                            <br><br>
+                                Gmina Trzebnica położona jest w północno‐wschodniej części województwa dolnośląskiego. Graniczy ona: od wschodu z gminą Zawonia; od zachodu z gminami: Oborniki Śląskie, Prusice; od północy z gminami: Milicz, Żmigród; od południa z gminami: Długołęka, Wisznia Mała. Północ Gminy Trzebnica tworzy Kotlina Żmigrodzka, a południe – Wzgórza Trzebnickie.
+                            <br><br>
+                                Trzebnica znajduje się zaledwie 20 km na północ od Wrocławia, z którym łączy ją droga ekspresowa S5. W stolicy Dolnego Śląska zlokalizowane jest najbliższe lotnisko.</p>
+                        
+                        <div id='map'></div>
+                        <br>
+                        <p>Rolniczo-sadowniczy charakter gminy jest uzupełniany w ostatnich latach przez liczne inwestycje, wykorzystujące potencjał gminy i jej mieszkańców. Atrakcyjne ukształtowanie terenu gminy oraz liczne walory turystyczne wpływają na rozwój sportu i rekreacji, jak i różnych form turystyki.
+                            <br><br>
+                            W okolicach Trzebnicy występuje łagodny, umiarkowanie ciepły i wilgotny klimat. Ważną cechą klimatu trzebnickiego jest jego duża zmienność i aktywność atmosferyczna, szczególnie w okresie zimowym poprzez spore skoki ciśnienia atmosferycznego, wahania temperatury oraz zmienność wilgotności powietrza.
+                            <br><br>
+                            Potwierdzone zostały parametry bioklimatyczne spełniające normy klimatyczne oraz parametry sanitarne powietrza, które w całości odpowiadają normom zastosowanym dla uzdrowisk. Klimat Trzebnicy ma właściwości lecznicze i profilaktyczne w odniesieniu do chorób układu krążenia, narządów ruchu, stanów pourazowych i zaburzeń przemiany materii, a dodatkowo poprzez zróżnicowane bodźce klimatyczne i terenowe może wspomagać leczenie zaburzeń układu termoregulacyjnego.</p>            
+        </article>
+
+        <article class="article-text">
+                            <div class="break" id="wliczbach"></div>
+                            <h2>Gmina w liczbach</h2>
+
+                            <div class="photo-container">
+                                <img src="./linki/wLiczbach/wliczbach (1).jpeg" class="photo gmina-w-liczbach">
+                            </div>
+                            <div class="btns">
+                                <button class="my-button my-previous-button">poprzednie</button><button class="my-button my-next-button">następne</button>
+                            </div>
+
+                            <p class="dane-statystyczne">
+                                <br>
+                                <span class="bold-number"></span>
+        Liczba ludności Gminy Trzebnica – <span class="bold-number">23 470</span> <br>
+        Liczba ludności miasto Trzebnica – <span class="bold-number">12 606</span> <br>
+        Liczba ludności sołectwa – <span class="bold-number">10 864</span> <br><br>
+
+        Powierzchnia Gminy Trzebnica - <span class="bold-number">200,2 km²</span> <br>
+        Gęstość zaludnienia na 1 km² - <span class="bold-number">122</span> <br><br>
+
+        Przyrost naturalny – <span class="bold-number">1</span> <br>
+        Stopa bezrobocia – <span class="bold-number">2,6</span> <br>
+        Kobiety na 100 mężczyzn – <span class="bold-number">107</span> <br><br>
+
+        Dochody budżetu gminy na 1 mieszkańca – <span class="bold-number">5235 zł</span> <br>
+        Wydatki budżetu gminy na 1 mieszkańca – <span class="bold-number">5237 zł</span> <br>
+        Mieszkania oddane na 10 tys. ludności – <span class="bold-number">60</span> <br>
+
+        Podmioty gospodarki narodowej w rejestrze REGON na 10 tys. ludności w wieku produkcyjnym – <span class="bold-number">2171</span>  <br>
+        Podmioty gospodarki narodowej w rejestrze REGON ogółem – <span class="bold-number">3172</span> <br>
+        w sektorze rolniczym – <span class="bold-number">45</span> <br>
+        w sektorze przemysłowym – <span class="bold-number">270</span> <br>
+        w sektorze budowlanym – <span class="bold-number">480</span> <br><br>
+
+        Żłobki, oddziały żłobkowe – <span class="bold-number">7</span> <br>
+        Placówki wychowania przedszkolnego – <span class="bold-number">13</span><br>
+        Dzieci w placówkach wychowania przedszkolnego – <span class="bold-number">1047</span>, w tym w przedszkolach – <span class="bold-number">716</span> <br>
+        Szkoły Podstawowe – <span class="bold-number">10</span> <br>
+        Uczniowie szkół podstawowych – <span class="bold-number">2424</span> <br><br>
+
+        Czytelnicy w bibliotekach publicznych – <span class="bold-number">1925</span> <br>
+        Wypożyczenia księgozbioru na 1 czytelnika – <span class="bold-number">24</span> <br><br>
+        Dane Głównego Urzędu Statystycznego (2019r.)
+                            </p>
+
+        </article>
+
+        
+        <article class="article-text">
+            <div class="break turystyka" id="turystyka"></div>
+                            <h2>Walory turystyczne</h2>
+                        
+
+                                <p>
+                                    Trzebnica położona jest w północnej części Dolnego Śląska, w pasie Wzgórz Trzebnickich. Bliska odległość od stolicy Dolnego Śląska – Wrocławia – oraz walory przyrodnicze, turystyczne i historyczne stanowią ciekawą alternatywę na spędzenie czasu z dala od wielkomiejskiego zgiełku. Bogata historia, ciekawe miejsca spacerowo-wypoczynkowe oraz nowoczesne obiekty do uprawiania czynnej rekreacji pokazują ogromny potencjał kulturowy i krajobrazowy Trzebnicy. Urok tego miejsca podkreślają dodatkowo malownicze wzgórza otaczające miasto, rozległe sady oraz Las Bukowy i przyległe stawy trzebnickie (tereny przedwojennego uzdrowiska). Niezapomnianym miejscem czynnego wypoczynku dla całych rodzin jest nowoczesny Gminny Park Wodny TRZEBNICA-ZDRÓJ. Sercem miasta jest uroczy, zmodernizowany trzebnicki rynek. W Trzebnicy znajduje się także należący do największych obiektów klasztornych w Europie Środkowej pocysterski klasztor Sióstr Boromeuszek z przylegającą do niego bazyliką będącą Międzynarodowym Sanktuarium św. Jadwigi Śląskiej. Na pozytywny wizerunek Trzebnicy wpływają także liczne parki miejskie z odnowionymi fontannami, alejki spacerowe, place zabaw oraz ścieżki rowerowe. Więcej informacji na <a href="https://turystyka.trzebnica.pl/483/turystyka-strona-glowna.html">naszej stronie WWW</a>.
+                                </p>
+                                <div class="photo-container">
+                                <img src="./linki/slider (1).jpg" class="photo slider-turystyka">
+                                </div>
+                                <div class="buttons-slider">
+                                 <button class="my-button previous-slider-button">poprzednie zdjęcie</button>
+                                 <button class="my-button next-slider-button">kolejne zdjęcie</button>
+                                </div>
+
+
+        </article>         
+    </div>
+</div>
+
+<!--ARTYKUŁY ZAINWESTUJ W TRZEBNICY-->
+<div class="article-container invisible-article-container">
+        <div class="article">
+    
+            <article class="article-text">
+                <div class="break" id="atuty"></div>
+                                <h2>Główne atuty</h2>
+
+                                <div class="sector-container">
+                                    <img src="./linki/user.svg" class="icon">
+                                    <div class="break"></div>
+                                    <p class="icon-container">Bliskość Wrocławia zapewnia dostęp do szerokiej i bogatej oferty firm konsultingowych, rekrutacyjnych, doradczych, wyspecjalizowanych kancelarii prawnych oraz ośrodków akademickich i think tanków, co zapewnia dopływ wykwalifikowanej i wykształconej kadry.</p>
+                                </div>
+                                <div class="sector-container">
+                                    <img src="./linki/sun.svg" class="icon">
+                                    <div class="break"></div>
+                                    <p class="icon-container">W Trzebnicy znajdują się także kancelarie prawne i notarialne. Jak również baza gastronomiczna i noclegowa w atrakcyjnych hotelach, wyposażonych w sale konferencyjne.</p>
+                                </div>
+                                <div class="sector-container">
+                                    <img src="./linki/place.svg" class="icon">
+                                    <div class="break"></div>
+                                    <p class="icon-container">Lokalizacja – tuż przy stolicy Dolnego Śląska, przy trasie ekspresowej S5, blisko granicy z Czechami oraz Niemcami. Więcej o charakterystyce gminy przeczytasz <span class="odnos odnos-pierwszy">tutaj</span></p>
+                                </div>
+                                <div class="sector-container">
+                                    <img src="./linki/piggy-bank.svg" class="icon">
+                                    <div class="break"></div>
+                                    <p class="icon-container">Zachęty inwestycyjne – zwolnienia podatkowe o których więcej przeczytasz <span class="odnos odnos-drugi">tutaj</span>.</p>
+                                </div>
+                                <div class="sector-container">
+                                    <img src="./linki/hand-shake.svg" class="icon">
+                                    <div class="break"></div>
+                                    <p class="icon-container">Klimat dla biznesu – współpraca z Urzędem Miejskim na każdym etapie procesu inwestycyjnego, nastawienie na </p>
+                                </div>
+                                <div class="sector-container">
+                                    <img src="./linki/worker.svg" class="icon">
+                                    <div class="break"></div>
+                                    <p class="icon-container">Zaplecze kapitału ludzkiego.</p>
+                                </div>
+            </article>
+            <article class="article-text">
+                <div class="break" id="szansa"></div>
+                                <h2>Sektory wysokiej szansy</h2>
+
+                                <div class="sector-container">
+                                        <img src="./linki/global.svg" class="icon">
+                                        <div class="break"></div>
+                                        <p class="icon-container">Informatyczny IT – ICT szczególnie ze względu na to, że we Wrocławiu jest sporo firm działających w tej branży, jest zaplecze w postaci wyższych uczelni kształcących na kierunkach związanych z ICT. Swoją siedzibę ma m.in. IBM. Bardzo prężnie działa IT Corner – stowarzyszenie małych i średnich firm IT.</p>
+                                </div>
+
+                                <div class="sector-container">
+                                <img src="./linki/apple.svg" class="icon">
+                                <div class="break"></div>
+                                <p class="icon-container">
+                                Spożywczy (przetwórstwo owocowo – warzywne) – wynika to ze specyfiki otoczenia Trzebnicy jako dolnośląskiego centrum sadów.
+                                </p>
+                            </div>
+
+
+                                <div class="sector-container">
+                                <img src="./linki/heart.svg" class="icon">
+                                <div class="break"></div>
+                                <p class="icon-container">
+                                 Medyczny – może też warto zapisać – w oparciu o doświadczenia Centrum Replantacji i zaplecze w postaci Uniwersytetu Medycznego we Wrocławiu.
+                                </p>
+                            </div>
+            </article>
+
+            <article class="article-text">
+                <div class="break" id="strefa"></div>
+                                <h2>Strefa inewstycyjna</h2>
+                                <p>Obszar inwestycyjny Specjalnej Strefy Ekonomicznej Trzebnica zalicza się do Kamiennogórskiej Specjalnej Strefy Ekonomicznej Małej Przedsiębiorczości z siedzibą w Kamiennej Górze. 
+                                    150 hektarów zlokalizowane jest w bezpośrednim sąsiedztwie węzła komunikacyjnego z drogą szybkiego ruchu S-5 oraz wzdłuż planowanej Małej Obwodnicy Trzebnicy w trasie Wrocław – Milicz. 
+                                    </p>
+                                    <div class="photo-strefa">
+                                        <img src="./linki/strefa-inwestycyjna_f2.jpg" alt="" srcset="" class="photo">
+                                    </div>
+            </article>
+
+            <article class="article-text">
+                <div class="break przedsiebiorcy" id="przedsiębiorcy"></div>
+                                <h2>Trzebniccy przedsiębiorcy</h2>
+                                <p>Trzebnica od zawsze była miejscem atrakcyjnym dla przedsiębiorców. Poniżej przedstawiamy największych z nich.</p>
+                                <div class="firmy-container">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <img src="./linki/herb/herb_poziom.svg" alt="" class="photo-grid">
+                                    <div class="break"></div>
+
+                                </div>
+            </article>
+    
+        </div>
+</div>
+
+<!--ARTYKUŁY DLA INWESTORA-->
+<div class="article-container invisible-article-container">
+    <div class="article">
+          <article class="article-text">
+              <div class="break" id="inwestorzy"></div>
+                              <h2>Ulgi podatkowe dla Inwestorów</h2>
+                              <p>
+                              Przedsiębiorca inwestujący na terenie Specjalnej Strefy Ekonomicznej Trzebnica nabywa prawo do korzystania z pomocy publicznej w formie zwolnienia podatkowego. <br><br>
+                              Pułapy pomocy określone stosuje się w odniesieniu do całkowitej kwoty pomocy ze środków publicznych dla projektu objętego pomocą, niezależnie od tego, czy pomoc pochodzi ze źródeł lokalnych, regionalnych, krajowych czy wspólnotowych.
+                              Jeśli firma planuje w najbliższym czasie budowę hali produkcyjnej, zakup nowej maszyny, linii technologicznej, dywersyfikację lub zwiększenie mocy produkcyjnych to przy spełnieniu określonych kryteriów, może się ubiegać o decyzję o wsparciu, a co za tym idzie pomoc publiczną. <br><br>
+                              Otrzymanie decyzji o wsparciu jest jednoznaczne z otrzymaniem pomocy publicznej w formie zwolnienia z podatku dochodowego od osób prawnych lub osób fizycznych. Pula zwolnienia zależy od wielkości przedsiębiorstwa i lokalizacji przedsięwzięcia. Dla województwa dolnośląskiego duży przedsiębiorca może odzyskać 25%, średni 35%, a mały i mikro 45% nakładów (kosztów kwalifikowanych), w postaci zwolnienia z podatku dochodowego. <br><br>
+                              Aktualnie, żeby otrzymać decyzję o wsparciu należy spełnić kryteria jakościowe i ilościowe. Kryteria ilościowe to minimalny poziom nakładów inwestycyjnych, który zależy od wielkości przedsiębiorstwa oraz od stopy bezrobocia w powiecie.
+                              Więcej informacji pod linkem:
+                              <a href="http://ssemp.pl/?page_id=1801" class="bold" target="_blank">ssemp.pl</a>
+                            </p>   
+          </article>
+      </div>
+</div>
+
+
+
+<!--ARTYKUŁY KONTAKT-->
+<div class="article-container invisible-article-container">
+    <div class="article">
+  
+          <article class="article-text">
+              <div class="break"></div>
+
+                              <h2>Kontakt</h2>
+
+                        <div class="contact-container">
+                                  <div class="contact">
+                              <h3>Paweł Siciński</h3>
+                              <h4>Główny Specjalista ds. Rozwoju Gminy<br>Chief Specialist. Municipality Development
+
+                                <br><br>
+                                pawel.sicinski[at]um.trzebnica.pl<br>strefa[at]um.trzebnica.pl
+                                <br>
+                                Phone: +48 502 229 513 <br><br>
+                                Language: polish/english
+                                </h4>
+                                </div>
+
+                                  <!-- <div class="contact">
+                              <h3>Jan Kowalski</h3>
+                              <h4>Pełnomocnik / Specjalista ds. SSE Trzebnica<br>Plenipotentiary / Specialist for SSE Trzebnica
+
+                                <br><br>
+                                jan.kowalski[at]um.trzebnica.pl
+                                <br>
+                                Phone: +48 665 229 513 <br><br>
+                                Language: polish/english/deutsch
+                                </h4>
+                                </div> -->
+                        </div>
+                        <div id="date"></div>
+          </article>
+  
+      </div>
+</div>
+
+<!--TOP LINK and Fake-->
+
+<div class="top-link">
+ <img src="./linki/arrow.svg" alt="arrow-top" class="arrow">
+</div>
+
+<div class="fake"></div>
+
+
+  <!--  FOOTER  -->
+  <footer>
+      <div class="foot">
+          <img src="./linki/herb/Logo _Gmina_białe .svg" alt="" class="footer-photo">
+          <h4 class="footer-text">
+            Gmina Trzebnica <br>
+            pl. Marszałka J. Piłsudskiego 1 <br>
+            55-100 Trzebnica</h4>
+            <h4 class="footer-text">
+                tel.: 71 312 06 11, 312 06 12 <br>
+tel.: 71 312 01 45 fax: 71 312 12 48 <br>
+
+e-mail: sekretariat@um.trzebnica.pl
+            </h4>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+<!--================================================= JAVA SCRIPT ============================================================-->
+<script>
+
+// ========= ARRAY AND CONSTS 
+
+
+
+
+// ========= SLIDER TURYSTYKA FOTO
+
+let sliderNumber = 1;
+
+    setInterval(() => {
+        sliderNumber = sliderNumber + 1
+        if (sliderNumber > 19) {
+            sliderNumber = 1;
+        }
+        showPhoto()
+    }, 8000);
+
+
+const nextSliderButton = document.querySelector('.next-slider-button');
+nextSliderButton.addEventListener('click',function(){
+    sliderNumber = sliderNumber+1
+    if(sliderNumber>19){
+        sliderNumber=1;
+    }
+    showPhoto()
+})
+
+const previousSliderButton = document.querySelector('.previous-slider-button');
+previousSliderButton.addEventListener('click',function(){
+    sliderNumber = sliderNumber-1
+    if(sliderNumber<=0){
+        sliderNumber=19;
+    }
+    showPhoto()
+})
+
+
+
+// ========= GMINA W LICZBACH
+
+const nextButton = document.querySelector('.my-next-button');
+const previousButton = document.querySelector('.my-previous-button');
+let photoSliderNumber = 1;
+
+nextButton.addEventListener('click',function(){
+
+    photoSliderNumber=photoSliderNumber+1;
+    if (photoSliderNumber>19){photoSliderNumber=1}
+
+    document.querySelector('.gmina-w-liczbach').src = `./linki/wLiczbach/wliczbach (${photoSliderNumber}).jpeg`;
+})
+
+previousButton.addEventListener('click',function(){
+
+        photoSliderNumber = photoSliderNumber - 1;
+        if(photoSliderNumber<1){photoSliderNumber=19;}
+
+    document.querySelector('.gmina-w-liczbach').src = `./linki/wLiczbach/wliczbach (${photoSliderNumber}).jpeg`;
+})
+
+
+
+//  =============== MAPA
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiampsaW5rZXIiLCJhIjoiY2tsaHBtZDg5MXM1ajJybWdmeHdmYnJ5aiJ9.joe3sHV1bW-qRBIHmRb97g';
+
+navigator.geolocation.getCurrentPosition(succesLocation, errorLocation, {enableHighAccuracy: true});
+
+function succesLocation(position){
+setupMap([position.coords.longitude, position.coords.latitude])
+}
+
+function errorLocation(){
+setupMap([17.065, 51.307])
+}
+
+function setupMap(center){
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: center,
+        zoom: 14
+        });
+}
+
+
+// =========== NAV BTNS
+
+const navBtns = document.querySelectorAll('.nav-btns')
+const subNavContainers = document.querySelectorAll('.sub-nav-container')
+const articles = document.querySelectorAll('.article-container')
+
+const articlesArr = Array.from(articles);
+const subNavBtnsArr = Array.from(subNavContainers);
+const navBtnsArr = Array.from(navBtns);
+
+
+navBtns.forEach(function(btn){
+
+    btn.addEventListener('click',function(e){
+    removeNavBtnsClasses()
+    removeArticleClasses();
+
+
+    const target = e.currentTarget;
+    target.classList.add('active-btn')
+
+    const id = target.getAttribute('data-id');
+
+    const subNavElement = document.getElementById(id);
+    subNavElement.classList.add('sub-nav-disactive');
+
+    removeSubNavBtnsClasses()
+
+
+    setTimeout(function(){
+        subNavElement.classList.add('sub-nav-active');
+    },200);
+
+    
+    if (id=='about'){articlesArr[0].classList.remove('invisible-article-container')}
+    if (id=='invest'){articlesArr[1].classList.remove('invisible-article-container')}
+    if (id=='support'){articlesArr[2].classList.remove('invisible-article-container')}
+    if (id=='contact'){articlesArr[3].classList.remove('invisible-article-container')}
+    })
+})
+
+
+// =========== TOP LINK AND FIXED NAV
+
+const topLink = document.querySelector(".top-link");
+const herbSticky = document.querySelector('.herb-sticky');
+
+window.addEventListener("scroll", function () {
+  const scrollHeight = window.pageYOffset;
+  const SubNavMainContainer = document.querySelector('.sub-nav-main-container')
+  
+    if (scrollHeight>410){
+        subNavContainers.forEach(function(){
+            SubNavMainContainer.classList.add('fixed-nav-container')
+        })
+        herbSticky.classList.add('sticky-visible')
+    } else {
+        subNavContainers.forEach(function(){
+            SubNavMainContainer.classList.remove('fixed-nav-container')
+        })
+        herbSticky.classList.remove('sticky-visible');
+    }
+
+    if (scrollHeight > 500) {
+
+    topLink.classList.add("show-link");
+  } else {
+    topLink.classList.remove("show-link");
+  }
+});
+
+topLink.addEventListener('click',function(){
+    window.scrollTo({
+      left: 0,
+      top: 0,
+    });
+})
+    herbSticky.addEventListener('click',function(){
+    window.scrollTo({
+      left: 0,
+      top: 0,
+    });
+})
+
+// ========== OTHER FUNCTIONS
+function removeArticleClasses(){
+    articlesArr[0].classList.add('invisible-article-container')
+    articlesArr[1].classList.add('invisible-article-container')
+    articlesArr[2].classList.add('invisible-article-container')
+    articlesArr[3].classList.add('invisible-article-container')
+}
+
+function removeNavBtnsClasses(){
+    navBtns.forEach(function(e){
+            e.classList.remove('active-btn')
+        })
+}
+
+function removeSubNavBtnsClasses(){
+    subNavContainers.forEach(function(e){
+        e.classList.remove('sub-nav-active')
+    })
+}
+
+function subNavBtnsShow(x){
+    subNavBtnsArr[x].classList.add('sub-nav-active')
+}
+
+function addArticleClasses(x){
+    articlesArr[x].classList.remove('invisible-article-container')
+}
+
+function addNavBtnsClasses(x){
+    navBtnsArr[x].classList.add('active-btn')
+}
+
+function showPhoto(){
+    document.querySelector('.slider-turystyka').src = `./linki/slider (${sliderNumber}).jpg`;
+}
+
+function scrollToPlace(place){
+    const finalPlace = document.getElementById(place);
+    const finalPlaceHeight = finalPlace.getBoundingClientRect().top;
+
+        window.scrollTo({
+        left: 0,
+        top: finalPlaceHeight,
+    })
+
+}
+
+
+// ========== OTWARCIE STRONY URZĘDU
+
+const openSite = document.querySelector(".herb");
+openSite.addEventListener("click", e => {
+    const win = window.open("https://trzebnica.pl/16/strona-glowna.html", "target='_blank'");
+})
+
+// ========= ODNOŚNIKI
+
+const odnosinvestFirst = document.querySelector('.odnos-pierwszy')
+const odnosinvestSecond = document.querySelector('.odnos-drugi');
+
+odnosinvestFirst.addEventListener('click', function(){
+    removeArticleClasses();
+    removeNavBtnsClasses()
+    removeSubNavBtnsClasses()
+
+    setTimeout(function(){
+        subNavBtnsShow(0)
+        addArticleClasses(0)
+        addNavBtnsClasses(0)
+        scrollToPlace('charakterystyka')
+    }, 50);
+})
+odnosinvestSecond.addEventListener('click', function(){
+    removeArticleClasses();
+    removeNavBtnsClasses()
+    removeSubNavBtnsClasses()
+
+    setTimeout(function(){
+        subNavBtnsShow(2)
+        addArticleClasses(2)
+        addNavBtnsClasses(2)
+        scrollToPlace('inwestorzy')
+    }, 50);
+})
+
+// ========== SIEROTY
+
+var tekst = document.querySelector('p').innerHTML;
+tekst = tekst.replace(/(\s)([\S])[\s]+/g,"$1$2&nbsp;"); //jednoznakowe
+//tekst = tekst.replace(/(\s)([^<][\S]{1})[\s]+/g,"$1$2&nbsp;"); //dwuznakowe
+//tekst = tekst.replace(/(\s)([^<][\S]{2})[\s]+/g,"$1$2&nbsp;"); //trzyznakowe
+document.querySelector('p').innerHTML = tekst;
+
+// // ========== AKTUALNA DATA
+
+const today = new Date();
+const day = today.getDate();
+const month = today.getMonth();
+const year = today.getFullYear();
+
+const monthText = ['stycznia','lutego','marca','kwietnia','maja','czerwca','lipca','sierpnia','września','października','listopada','grudnia']
+
+const date = document.getElementById("date");
+date.innerHTML = `Wszystkie dane znajdujace się na stronie zaktualizowano ${day} ${monthText[month]} ${year}`;
+
+
+
+
+</script>
+</body>
+
+</html>
